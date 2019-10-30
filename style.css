@@ -1,0 +1,188 @@
+body{
+    font-family:arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+}
+
+/* Global*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.button_1{
+    height:38px;
+    background:#F8D145;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;
+}
+
+.dark{
+    padding:15px;
+    background:#597897;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/* Header*/
+header{
+    background-color:#597897;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#F8D145 5px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+header ul{
+    padding:0;
+    margin:0;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+    /* top right bottom left*/
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color:#F8D145;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#f4f4f4;
+    font-weight:bold;
+}
+
+/*Showcase*/
+#showcase{
+    min-height:400px;
+    background:url(https://www.wallpaperflare.com/static/464/667/801/earth-sunset-4k-sun-wallpaper.jpg); no repeat 1 -400px;
+    background-repeat:no-repeat;
+    background-position:40% 40%;
+    text-align:center;
+    color:#ffffff;
+}
+
+
+/* https://ak9.picdn.net/shutterstock/videos/10661249/thumb/1.jpg */
+
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+    text-shadow:-4px 4px gray;
+    text-shadow:
+		-1px -1px 0 gray,
+		1px -1px 0 gray,
+		-1px 1px 0 gray,
+		1px 1px 0 gray;
+}
+
+
+#showcase p{
+    font-size:20px;
+    color:gray;
+    text-shadow:-1px 1px white;
+}
+
+/* Newsletter */
+#newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:#597897;
+}
+
+#newsletter h1{
+    float:left;
+}
+
+#newsletter form{
+    float:right;
+    margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+
+/* Boxes */
+#boxes{
+    margin-top:20px;
+    
+}
+
+#boxes .box{
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+}
+
+#boxes .box img{
+    width:90px;
+}
+
+#boxes .box a{
+    color:#597897;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+#boxes .box a:hover{
+    color:#F8D145;
+    font-weight:bold;
+}
+
+/* Sidebar */
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+    
+}
+
+/* Main-col */
+article#main-col{
+    float:left;
+    width:65%;
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background:#597897;
+    text-align:center;
+}
