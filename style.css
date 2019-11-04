@@ -176,7 +176,11 @@ header a:hover{
     text-align:center;
     width:30%;
     padding:10px;
+    border-width: medium;
+    border-style: ridge;
+    border-color: #597897;
 }
+
 
 #boxes_port .box_port img{
     width:90px;
