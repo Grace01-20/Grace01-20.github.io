@@ -176,7 +176,7 @@ header a:hover{
     text-align:center;
     width:30%;
     padding:10px;
-    border-width: medium;
+    border-width: thick;
     border-style: ridge;
     border-color: #597897;
 }
