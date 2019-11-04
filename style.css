@@ -165,6 +165,36 @@ header a:hover{
     font-weight:bold;
 }
 
+/* Boxes_port */
+#boxes_port{
+    margin-top:20px;
+    
+}
+
+#boxes_port .box_port{
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+}
+
+#boxes_port .box_port img{
+    width:90px;
+}
+
+#boxes_port .box_port a{
+    color:#597897;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+#boxes_port .box_port a:hover{
+    color:#F8D145;
+    font-weight:bold;
+}
+
+
 /* Sidebar */
 aside#sidebar{
     float:right;
