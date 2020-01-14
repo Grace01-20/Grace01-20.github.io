@@ -145,12 +145,12 @@ header a:hover{
 #boxes .box{
     float:left;
     text-align:center;
-    width:30%;
+    width:400px;
     padding:10px;
 }
 
 #boxes .box img{
-    width:90px;
+    width:400px;
 }
 
 #boxes .box a{
