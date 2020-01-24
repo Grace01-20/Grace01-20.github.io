@@ -174,7 +174,7 @@ header a:hover{
 #boxes_port .box_port{
     float:left;
     text-align:center;
-    width:30%;
+    width:400px;
     padding:10px;
     border-width: thick;
     border-style: ridge;
@@ -183,7 +183,7 @@ header a:hover{
 
 
 #boxes_port .box_port img{
-    width:180px;
+    width:400px;
 }
 
 #boxes_port .box_port a{
