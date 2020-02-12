@@ -18,7 +18,7 @@
       
       int bgx, bgy, cx, cy, g, Vcy;
       int[] pipeX, pipeY; //DECLARE two arrays
-      int gameState, theScore;
+      int gameState, theScore, highScore;
       
       //ONE TIME
       void setup()
@@ -56,12 +56,23 @@
           setPipes();
           setChip(); //PUTS CHIP ON TOP
           score();
+          highScore();
         }
         else
         {
             text("YOU LOSE", 20, 200);
         }
         
+      }
+      
+      void highScore()
+      {
+        if (score > localStorage.getItem("highscore")) {
+          localStorage.setItem("highscore", score);
+        }
+        fill(0);
+        textSize(32);
+        text("High Score: " + highScore , width - 170, 80);
       }
       
       void score()
