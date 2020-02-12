@@ -18,7 +18,7 @@
       
       int bgx, bgy, cx, cy, g, Vcy;
       int[] pipeX, pipeY; //DECLARE two arrays
-      int gameState, theScore, highScore;
+      int gameState, theScore, highScore = "";
       
       //ONE TIME
       void setup()
@@ -49,6 +49,7 @@
         if(gameState == -1)
         {
           startScreen();
+          highScore = 0;
         }
         else if(gameState==0)
         {
@@ -56,11 +57,20 @@
           setPipes();
           setChip(); //PUTS CHIP ON TOP
           score();
+          highScore();
         }
         else
         {
             text("YOU LOSE", 20, 200);
+            if(theScore > highScore){
+              theScore = highScore;
+            }
         }
+        
+      }
+      
+      void highScore()
+      {
         
       }
     
