@@ -56,7 +56,6 @@
           setPipes();
           setChip(); //PUTS CHIP ON TOP
           score();
-          highScore();
         }
         else
         {
@@ -64,16 +63,7 @@
         }
         
       }
-      
-      void highScore()
-      {
-        if (score > localStorage.getItem("highscore")) {
-          localStorage.setItem("highscore", score);
-        }
-        fill(0);
-        textSize(32);
-        text("High Score: " + highScore , width - 170, 80);
-      }
+    
       
       void score()
       {
